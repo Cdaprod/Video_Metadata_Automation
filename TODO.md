@@ -1,0 +1,37 @@
+# TODO
+
+- github pipeline to supabase and workflow/actions to index videos processed into the file stored on github
+- langchain git action for filling the generated metadata
+- dockerize the app
+- figure out what the indexed files format will be and set it up 
+- 
+- 
+- feed to yeager.ai => (
+- 
+- attach postgres  
+- 
+- llmchain llm=openai
+- embeddings=openai
+- 
+- 
+- tools=[
+- 
+- openai_func
+- serp
+- todo
+- filetool
+- shelltool
+- 
+- ]
+- 
+- 
+- agent init
+- 
+- for videos in index 
+- where index is true run {video/index classification} on {src} for {output} 
+- upsert {output} to {File Name}
+- with {File Name} generate {Description} and {Keywords} 
+- 
+- from {BlackBoxMetadata} table generate {BlackBoxGlobalxlsx} 
+- 
+- )
